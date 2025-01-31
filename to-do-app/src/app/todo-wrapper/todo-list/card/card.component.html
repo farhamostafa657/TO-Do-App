@@ -1,0 +1,20 @@
+<div class="col">
+  <div class="card">
+    <img src="assets\task.jpg" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title text-primary text-uppercase fs-2">
+        {{ eachTask }}
+      </h5>
+      <div class="d-flex align-content-center justify-content-between">
+        <button type="button" class="btn btn-outline-primary">Completed</button>
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          (click)="handleDelete(eachTask)"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

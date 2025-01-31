@@ -1,0 +1,15 @@
+.content {
+  height: 35vh;
+  min-height: 100px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--bs-primary-text-emphasis) !important;
+  opacity: 0.5; /* Ensure the color is fully visible */
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,7 @@
+<app-todo-form (sendTask)="handleAddTask($event)"></app-todo-form>
+
+<div class="container mt-1">
+  <div class="row">
+    <app-todo-list [tasksArray]="tasks" (sentTaskToWrapper)="handleDeletTask($event)"></app-todo-list>
+  </div>
+</div>
